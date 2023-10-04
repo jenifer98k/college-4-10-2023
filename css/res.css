@@ -1,0 +1,388 @@
+nav.main-menu ul.menu>.home>a:after{
+    display: none;
+
+}
+nav.main-menu ul.menu>.home>a span{
+    visibility: hidden;
+    width: 120px;
+    background-color:white;
+    color: #2c318c;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 10%;
+}
+.fbar-contents ul.ttm-timelist-block li {
+    font-size: 19px;
+}
+nav.main-menu li.mega-menu-item:hover > ul.mega-submenu li{
+    border-bottom:1px solid #e2e2e2 ;
+}
+nav.main-menu ul.menu>.home>a:hover span{
+    visibility: visible;
+}
+
+
+.header_extra>div{
+    margin-left: -40px;
+}
+.top_bar_contact_item a {
+    color: white !important;
+}
+.top_bar_contact_item:hover a{
+    color: #D0127D !important;
+}
+table {
+    font-size: 20px;
+}
+.accordion .toggle.ttm-style-classic .toggle-title a {
+    font-size: 20px;
+}
+.ttm-btn{
+    border-radius: 50px !important;
+}
+.featured-imagebox-course{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.course-items .course-item .course-item-meta i{
+    color: #D0127D;
+}
+.ttm-bgcolor-darkgrey{
+    background-color: #2c318c;
+}
+.home_welocome{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.img-fluid1{
+    max-width:450px;
+    height: 400px;
+}
+.img-fluid{
+    width: 400px;
+    height: 240px;
+}
+.img-fluid2{
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid3{
+    max-width: 400px;
+    height: 200px;
+
+}
+.menuTopbar{
+    display: none;
+}
+.border-radius{
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.ttm-header-style-02 .site-branding  {
+    padding: 0px ;
+}
+.course-items .course-item {
+    font-size: 18px;
+}
+.featured-imagebox-event .featured-content-event{
+    max-width: 423px;
+    bottom: -108px;
+}
+.content-inner{
+    padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 5px;
+}
+.content-inner img{
+    max-width: 100%;
+    height: auto;
+}
+.Naaccards{
+    background-color: #2c318c;  
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: 0.5s ease-in-out;
+}
+.Naaccards:hover{
+    transform: scale(1.05);
+}
+.menubaritem{
+    display: none !important;
+}
+.smallscreenmarques{
+    background-color: #e9e9e9;
+    padding: 10px;
+    color: #2c318c;
+    font-size: 17px;
+    display: none;
+    text-transform: capitalize;
+    
+}
+
+.text-effect{
+    color:#fff;
+    font-family: 'Odor Mean Chey', serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    perspective: 1000px;
+}
+.top_bar_contact_item:after {
+    height: 18px;
+    background-color: rgb(180 177 177);
+}
+.text-effect span{
+    display: inline-block;
+    transform-origin: 50% 50% -25px;
+    transform-style: preserve-3d;
+    animation: animate 1.6s infinite;
+}
+.text-effect span:nth-child(2){ animation-delay: 0.1s; }
+.text-effect span:nth-child(3){ animation-delay: 0.2s; }
+.text-effect span:nth-child(4){ animation-delay: 0.3s; }
+.text-effect span:nth-child(5){ animation-delay: 0.4s; }
+.text-effect span:nth-child(6){ animation-delay: 0.5s; }
+.text-effect span:nth-child(7){ animation-delay: 0.6s; }
+.text-effect span:nth-child(8){ animation-delay: 0.7s; }
+.text-effect span:nth-child(9){ animation-delay: 0.8s; }
+.text-effect span:nth-child(10){ animation-delay: 0.9s; }
+@keyframes animate{
+    0%{ transform: rotateX(-360deg); }
+    70%{ transform: rotateX(0); }
+}
+
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 70px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 60px; }
+}
+@media only screen and (max-width: 576px){
+    .text-effect{ font-size: 40px; }
+}
+
+@media only screen and (max-width:1026px){
+    
+    .site-branding img{
+      
+        max-height: 62px;
+    }
+    .smallscreenmarques {
+    
+        display: block;
+    }
+    .smallscreenmarques a{
+        
+        margin-top: 10px !important;
+        padding: 0px 20px 0px 15px;
+        border-right: 2px solid #D0127D;
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    .menubaritem{
+        display: block !important;
+    }
+    .menuTopbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #2c318c;
+        padding: 0.6rem 0;
+      
+        
+    }
+    
+}
+@media only screen and (max-width:769px){
+            .site-branding img{
+                max-height: 62px;
+            }
+            .about-btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+}
+@media only screen and (max-width:426px){
+    .site-branding img{
+        max-height: 46px;
+        margin-right: 50px;
+       
+    }
+
+}
+@media only screen and (max-width:376px){
+    .site-branding img{
+        margin-right: 70px;
+        max-width: 250px;
+        
+       
+    }
+
+}
+@media only screen and (max-width:326px){
+    .site-branding img{
+        margin-right: 50px;   
+    }
+    .menuTopbar{
+        font-size: 13px;
+    }
+
+}
+
+
+
+
+/* 2/10 >>> */
+.ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-left {
+    position: relative;
+    margin-right: 2%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(228, 225, 225);
+    padding: 1%;
+    border-radius: 1%;
+}
+.ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-profile-item  {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.breadcrumb-wrapper span {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-profile-item {
+        padding: 15px 15px 15px 15px;
+        /* display: grid; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        text-align: center;
+        width: 100% !important;
+    }
+.ttm-btn.ttm-btn-size-md {
+    font-size: 16px;
+    padding: 8px 20px;
+}
+ .ttm-learn-press-left {
+    position: relative;
+    margin-right: 0px;
+    width: 100% !important;
+    height: 200px !important; 
+    margin-bottom: 15px;
+    border: 1px solid rgb(228, 225, 225);
+    padding: 2%;
+    border-radius: 5%;
+}
+aside {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 768px) {
+    .ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-left, .ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-right {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 2;
+    }
+    aside {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-left {
+        position: relative;
+        margin-right: 3%;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+        border: 1px solid rgb(228, 225, 225);
+        padding: 1%;
+        border-radius: 1%;
+    }
+    .sidebar .widget ul{
+text-align: left;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+.ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-left {
+position: relative;
+margin-right: 0px;
+width: 150px;
+height: 150px;
+margin-bottom: 15px;
+border: 1px solid rgb(228, 225, 225);
+padding: 1%;
+border-radius: 1%;
+height: 300px !important;
+}}
+
+@media only screen and (max-width: 376px) and (min-width: 320px) {
+    .ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-left {
+        position: relative;
+        margin-right: 0px;
+        width: 150px;
+        height: 160px;
+        margin-bottom: 15px;
+        border: 1px solid rgb(228, 225, 225);
+        padding: 1%;
+        border-radius: 1%;
+        height: 200px !important;
+    }
+    section.error-404 h1 {
+        font-size: 42px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 375px) {
+    .ttm-team-member-single-content .ttm-learn-press-profile-header .ttm-learn-press-left {
+        position: relative;
+        margin-right: 0px;
+        width: 150px;
+        height: 160px;
+        margin-bottom: 15px;
+        border: 1px solid rgb(228, 225, 225);
+        padding: 1%;
+        border-radius: 1%;
+        height: 250px !important;
+    }
+    section.error-404 h1 {
+        font-size: 42px;
+        text-transform: uppercase;
+        line-height: 100%;
+    }
+}
+
+/* 3/10 */
+
+@media only screen and (max-width: 420px){
+.sidebar .widget ul {
+    text-align: center;
+}}
+@media only screen and (max-width: 768px){
+.sidebar .widget ul {
+    text-align: left;
+}
+}
